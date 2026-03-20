@@ -1,0 +1,17 @@
+data:
+  raw_path: data/raw/student-mat.csv
+  processed_path: data/processed/processed.csv
+
+association:
+  min_support: 0.1
+  min_confidence: 0.6
+
+clustering:
+  max_k: 8
+
+classification:
+  test_size: 0.2
+  random_state: 42
+
+semi_supervised:
+  labeled_ratio: 0.2
